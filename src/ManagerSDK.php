@@ -23,7 +23,7 @@ use KeyStackApp\Authentication\Model\LicenseRecord;
 use KeyStackApp\Authentication\Model\LicenseUpdateInput;
 use KeyStackApp\Service\ConfiguredApi;
 
-class ClientSDK extends ConfiguredApi
+class ManagerSDK extends ConfiguredApi
 {
     public function __construct(
         ?TokenStorageAdapterInterface $adapter = null,
